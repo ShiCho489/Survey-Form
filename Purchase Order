@@ -1,0 +1,85 @@
+# Survey-Form<!Doctype html>
+<html>
+  
+ <Header>
+
+<h1 id= "title"> Nissan Qashqai Model Purchase</h1>
+  </Header>
+  
+  <body>
+<p id= "description"> Fill details to complete your Nissan Qashqai Order</p>
+
+<form id= "survey-form">
+  
+  <div class= "input-headings">
+    
+  <label for= "name" id= "name-label"> Name </label for>
+  <input id= "name" type= "text" name= "name" placeholder= "Max Clark" required> </input>
+
+<br>
+
+<label for= "email" id= "email-label"> Email </label for>
+<input id= "email" type= "email" name= "email" placeholder="MaxClark@Nissan.com" required> </input>
+
+<br>
+
+<label for= "age" id= "number-label"> Age </label for>
+<input id= "number" type= "number" name= "age" placeholder= "22" min= "22" max= "100" required> </input>
+<br>
+
+<label for= "dropdown" id= "model" > Select Model</label for>
+<select id= "dropdown">
+  
+  <option value= "model_1">Model Qashqai 1</option value>
+  <option value= "model_x">Model Qashqai x</option value>
+  <option value= "model_y">Model Qashqai y</option value>
+  <option value= "model_2">Model Qashqai 2</option value>
+  <option value= "model_z">Model Qashqai z</option value>
+
+        
+        </select>
+<br>
+<br>
+<label for= "model_color" id= "model_color"><b> Model color:</b></label>
+
+
+
+  <input id= "model_color" type= "radio" id= "black" name= "color" value= "black">
+<label for= "model_color">Black</label for>
+
+ <input id= "model_color" type= "radio" id= "red" name= "color" value= "red">
+<label for= "model_color">Red</label>
+
+<input id= "model_color" type= "radio" id= "blue" name= "color" value= "blue">
+<label for= "model_color">Blue</label>
+<br>
+<br>
+<labele for=  "features"> <b>Add Features: <b> </label>
+  <br>
+  <input id= "checkbox" type= "checkbox" name= "features"
+value= "dual_motor">
+  <label for= "checkbox"> Dual Motor (All wheel drive)</label>
+  <br>
+   <input id= "checkbox" type= "checkbox" name= "features"
+value= "Google screen">
+  <label for= "checkbox"> Direction screen</label>
+  <br>
+   <input id= "checkbox" type= "checkbox" name= "features"
+value= "battery">
+  <label for= "checkbox"> Performance plus (Enhanced battery)</label>
+  <br>
+  <br>
+  
+  <label id= "textarea"> Additional Comments</label>
+  <br>
+  <textarea id= "textarea" name= "instructions" rows= "5" cols= "40">
+ </textarea>
+  <br>
+  <input id= "submit" type= "submit" value= "Place Order" class= "submit button">
+  
+  </div>
+  </form>
+  
+  
+  </body>
+  </html>
